@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React_Adaptive_App/static/css/main.a2c41a27.css",
-    "main.js": "/React_Adaptive_App/static/js/main.7d96ac32.js",
+    "main.js": "/React_Adaptive_App/static/js/main.ec2240b8.js",
     "static/media/main-header-bgd.jpg": "/React_Adaptive_App/static/media/main-header-bgd.38db047f3bf52663848f.jpg",
     "index.html": "/React_Adaptive_App/index.html",
     "main.a2c41a27.css.map": "/React_Adaptive_App/static/css/main.a2c41a27.css.map",
-    "main.7d96ac32.js.map": "/React_Adaptive_App/static/js/main.7d96ac32.js.map"
+    "main.ec2240b8.js.map": "/React_Adaptive_App/static/js/main.ec2240b8.js.map"
   },
   "entrypoints": [
     "static/css/main.a2c41a27.css",
-    "static/js/main.7d96ac32.js"
+    "static/js/main.ec2240b8.js"
   ]
 }
