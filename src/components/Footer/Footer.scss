@@ -1,0 +1,14 @@
+.page-footer {
+  min-width: 320px;
+
+  &__img {
+    box-sizing: content-box;
+    display: block;
+    margin: 26px auto 0;
+    padding-bottom: 52px;
+
+    @media (min-width: 768px) {
+      width: 372px;
+    }
+  }
+}

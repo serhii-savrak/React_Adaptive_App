@@ -1,0 +1,64 @@
+.submit-section {
+  background-color: black;
+  min-width: 320px;
+  position: relative;
+
+  &__description {
+    font-weight: 800;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      width: 368px;
+      position: relative;
+    }
+
+    @media (min-width: 1200px) {
+      width: 100%;
+      padding-right: 227px;
+    }
+  }
+
+  &__description-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+
+    @media (min-width: 768px) {
+      justify-content: center;
+    }
+  }
+
+  &__img {
+    &--d {
+      display: none;
+      @media (min-width: 1200px) {
+        position: absolute;
+        display: inline;
+        left: 55%;
+      }
+    }
+
+    &--m {
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+
+    &--l {
+      display: none;
+
+      @media (min-width: 768px) {
+        position: absolute;
+        display: inline;
+        left: 78%;
+      }
+      @media (min-width: 1200px) {
+        display: none;
+      }
+    }
+  }
+}
